@@ -6,9 +6,9 @@ let image = document.querySelector('img');
 image.onclick = function() {
     let src = image.getAttribute('src');
     if (src === 'images/firefox-icon.png') {
-        image.setAttribute('src', 'images/chrome-icon.png');
+        image.setAttribute('src', './img/stock-photo-kiev-ukraine-april-firefox-logotype-printed-on-paper-firefox-operating-system-for-281363948.jpg');
     } else {
-        image.setAttribute('src', 'images/firefox-icon.png');
+        image.setAttribute('src', './img/logo-firefox.png');
     }
 }
 
